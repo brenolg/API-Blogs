@@ -1,3 +1,10 @@
+/**
+ *
+ * @param {import('sequelize').Sequelize} sequelize
+ * @param {*} DataTypes
+ * @returns
+ */
+
 module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
     "User",
