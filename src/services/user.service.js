@@ -12,7 +12,13 @@ const createUser = async (user) => {
 
 const findUserByEmail = async (email) => User.findOne({ where: { email } });
 
+const findAllUsers = async () => User.findAll({ attributes: { exclude: 'password' } });
+
+const findUserById = async (id) => User.findByPk(id, { attributes: { exclude: 'password' } });
+
 module.exports = {
     createUser,
     findUserByEmail,
+    findUserById, 
+    findAllUsers,
 };
