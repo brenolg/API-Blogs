@@ -5,11 +5,6 @@ const login = async (email, password) => {
  return newUser;
 };
 
-// const createUser = async ({ email, password }) => {
-//  const newUser = await User.create({ email, password });
-//  return newUser;
-// };
-
 module.exports = {
   login,
 };
