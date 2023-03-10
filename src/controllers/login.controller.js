@@ -17,7 +17,7 @@ const login = async (req, res) => {
     const token = createToken(email);
     return res.status(200).json({ token });
 } catch (e) {
-    res.status(500).json({
+    return res.status(500).json({
       message: 'Erro interno',
       error: e.message,
     });
