@@ -1,4 +1,4 @@
-const validateRequiredFields = (req, res, next) => {
+const validateUserRequiredFields = (req, res, next) => {
   const { displayName, email, password } = req.body;
 
   if (!displayName || !email || !password) { 
@@ -8,4 +8,4 @@ const validateRequiredFields = (req, res, next) => {
   return next();
 };
 
-module.exports = { validateRequiredFields };
+module.exports = { validateUserRequiredFields };
