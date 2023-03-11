@@ -4,7 +4,7 @@ const secret = process.env.JWT_SECRET || 'Batatinha';
 
 const JWT_CONFIG = {
   algorithm: 'HS256',
-  expiresIn: '30min',
+  expiresIn: '24h',
 };
 
 const createToken = (data) => jwt.sign({ data }, secret, JWT_CONFIG);

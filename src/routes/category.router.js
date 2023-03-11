@@ -7,4 +7,6 @@ const categoryRouter = express.Router();
 
 categoryRouter.post('/', validateToken, nameCategoryRequired, categoryControler.createCategory);
 
+categoryRouter.get('/', validateToken, categoryControler.getAllCategory);
+
 module.exports = categoryRouter;
