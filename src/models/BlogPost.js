@@ -15,6 +15,8 @@ module.exports = (sequelize, DataTypes) => {
       userId: {type: DataTypes.INTEGER, foreignKey: true},
       published: DataTypes.DATE,
       updated: DataTypes.DATE,
+
+      // teste solicita esses campos mais não é necessario ja que estou renomeando timestamps
     },
     {
       timestamps: true,
