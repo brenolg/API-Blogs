@@ -11,6 +11,8 @@ O projeto API de Blogs consiste no desenvolvimento de uma API para um blog, com 
 ## Tecnologias utilizadas
 - APIs REST
 - MSC Architeture
+- ORM - Interface da aplicação com o banco de dados
+- Sequelize
 - Express
 - C.R.U.D
 - JWT
@@ -19,12 +21,12 @@ O projeto API de Blogs consiste no desenvolvimento de uma API para um blog, com 
 
 ## Banco de dados
 <details close>
-    <summary><strong> Diagrama e Tabelas</strong></summary>
- #### Diagrama de Entidade-Relacionamento
-<img src='./storeManager.png'>
+    <summary><strong> Diagrama de Entidade-Relacionamento</strong></summary>
+<img src='./storeManager.png'>>
+</details>
 
 ## Requisitos
-<details close>
+
 1. Crie migrations para as tabelas users, categories, blog_posts, posts_categories
 2. Crie o modelo User em src/models/User.js com as propriedades corretas
 3. Sua aplicação deve ter o endpoint POST /login
