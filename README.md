@@ -1,6 +1,6 @@
 # Blog API
 
-O projeto API de Blogs consiste no desenvolvimento de uma API para um blog, com funcionalidades de criação, atualização, exclusão e visualização de postagens, além de uma camada de autenticação de usuários.O objetivo é fornecer uma solução completa para a produção de conteúdo em um blog, aplicando os conhecimentos adquiridos durante o curso e garantindo a aderência à especificação, organização do código e qualidade dos testes realizados.
+O projeto API de Blogs consiste no desenvolvimento de uma API para um blog, com funcionalidades de criação, atualização, exclusão e visualização de postagens, além de uma camada de autenticação de usuários.O objetivo é fornecer uma solução completa para a produção de conteúdo em um blog, aplicando os conhecimentos adquiridos durante o curso e garantindo a aderência à especificação, organização do código e qualidade.
 
 ## Funcionalidades
 
