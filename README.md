@@ -22,7 +22,7 @@ O projeto API de Blogs consiste no desenvolvimento de uma API para um blog, com 
 ## Banco de dados
 <details close>
     <summary><strong> Diagrama de Entidade-Relacionamento</strong></summary>
-<img src='./storeManager.png'>>
+<img src='./api.png'>>
 </details>
 
 ## Requisitos
