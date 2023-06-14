@@ -47,7 +47,7 @@ Para instalar e executar o projeto localmente, você precisa ter o Docker instal
 
 Clone o repositório do GitHub:
 ```bash
-git clone git@github.com:brenolg/Store-Maneger-API-REST.git
+git clone git@github.com:brenolg/API-Blogs.git
 ```
 Rode os serviços node e db:
 ```bash
